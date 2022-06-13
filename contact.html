@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beard Care JS</title>
+    <script src="https://kit.fontawesome.com/6cde018846.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="icon" href="photos/workout.svg" type="image/gif" sizes="16x16">
+    <link rel="stylesheet" href="https://cdn.web-fonts.ge/fonts/bpg-boxo-boxo/css/bpg-boxo-boxo.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@rc/dist/js.cookie.min.js"></script>
+</head>
+<body class="hederistvis">
+    <header class="header-ragaca">
+        <div class="wraper-flex">
+<a class="logo" href="index.html">
+    <img class="logo"src="img/barberlogo.png" alt="logo">
+        </a>
+        
+        <nav class="navigation" id="navigationBlock">
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <a class= "nav-a active" href="index.html"> მთავარი </a>
+                </li>
+                <li class="nav-li"> 
+                     <a class= "nav-a" href="about.html"> ბლოგი </a>
+                </li>
+                <li class="nav-li">
+                    <a class= "nav-a" href="shop.html"> წვერის და თმის მოვლა </a>
+                </li>
+                <li class="nav-li">
+                    <a class="nav-a" href="contact.html"> კონტაქტი </a>    
+                </li>
+            </ul>
+            
+        </nav>
+
+
+        <div class="headder-wraper">
+            <div class="container">
+                <nav class="header-navigation">
+    
+                    <div class="toggle-menu" id="toggleButton">
+                        <div class="line line1"></div>
+                        <div class="line line2"></div>
+                        <div class="line line3"></div>
+                    </div>
+    
+                    <ul class="nav-list" id="navigation-ul">
+                        <li class="nav-li">
+                            <a class= "nav-a active" href="index.html"> მთავარი </a>
+                        </li>
+                        <li class="nav-li"> 
+                             <a class= "nav-a" href="about.html"> ბლოგი </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class= "nav-a" href="shop.html"> წვერის და თმის მოვლა </a>
+                        </li>
+                        <li class="nav-li">
+                            <a class="nav-a" href="contact.html">კონტაქტი</a>    
+                        </li>
+                    </ul>
+    
+                </nav>
+        </div>
+        </div>
+        </div>
+    </header>
+
+    
+    <section>
+        <div class="contact-cover">
+        <div class="box">
+
+<!-- კონტაქტი -->
+        
+    <form action="#" method="POST" class="form-wraper" id="registration"> 
+        <div class="left-block">
+        <div class="form1">
+            <label for="message"> </label>
+            <textarea class="textarea-element" name="description" id="message" placeholder="  შინაარსი..."></textarea>
+            </div>
+        </div>
+        <div class="right-block">
+
+<!--user -->
+<div class="form">
+    <label for="namelname"> სახელი/გვარი </label>
+    <input class="input-element" type="text" name="username" id="namelname" placeholder="name/lastname" >
+    <div class="error-text" id="error_username"></div>
+</div>
+
+<div class="form">
+    <label for="passname"> პაროლი </label>
+    <input class="input-element" type="password" name="password" id="passname" placeholder="password" >
+    <i id="toggle-icon" class="fa-solid fa-eye"></i>
+    <div class="error-text" id="error_password"></div>
+</div>
+
+        
+        <div class="form">
+            <label for="passname2"> გაიმეორეთ პაროლი </label>
+            <input class="input-element" type="password" name="passw" id="passname2" placeholder="repeat password" >
+            <i id="toggle-icon2" class="fa-solid fa-eye"></i>
+            <div class="error-text" id="error_passwi"></div>
+        </div>
+
+        <div class="form">
+            <label for="myemail"> ელ-ფოსტა:</label>
+            <input class="input-element" type="email" name="mail" id="myemail" placeholder="enter email" >
+            <div class="error-text" id="error_mail"></div>
+        </div>
+
+
+<div class="vizuali">
+    <input type="radio" class="asakii" name="age" id="ageuser">
+<label for="ageuser"> 18 - 25</label>
+
+
+<input type="radio" class="asakii" name="age" id="ageuser2">
+<label for="ageuser2"> 25 - 45</label>
+<div class="error-text" id="error_age"></div>
+</div>
+
+<div class="vizuali">
+<input type="checkbox" name="notagree" id="agreecheckbox"> 
+<label for="agreecheckbox"> შენახვა </label>
+<div class="error-text" id="error_notagree"></div>
+</div>
+
+
+<button class="knopka" type="submit" > გაგზავნა </button>
+</div>
+
+</form>
+</div>
+</div>
+</section>
+
+<section>
+    <div class="footer-basic">
+        <footer>
+            <div class="social"><a href="https://www.instagram.com/?hl=en"><i class="icon ion-social-instagram"></i></a><a href="https://www.facebook.com/"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a class="aebi" href="shop.html"">მარკეტი</a></li>
+                <li class="list-inline-item"><a class="aebi" href="about.html">ჩვენს შესახებ</a></li>
+                <li class="list-inline-item"><a class="aebi" href="#">კარიერა</a></li>
+                <li> <a class="list-inline-item"></a><a class="aebi" href="https://www.google.com/maps/place/36+%E1%83%92%E1%83%A0%E1%83%98%E1%83%92%E1%83%9D%E1%83%9A+%E1%83%AE%E1%83%90%E1%83%9C%E1%83%AB%E1%83%97%E1%83%94%E1%83%9A%E1%83%98%E1%83%A1+%E1%83%A5%E1%83%A3%E1%83%A9%E1%83%90,+%E1%83%97%E1%83%91%E1%83%98%E1%83%9A%E1%83%98%E1%83%A1%E1%83%98/@41.6906843,44.8047521,17.75z/data=!4m5!3m4!1s0x40440cf0fc261e55:0x43d5984558fd2845!8m2!3d41.690617!4d44.8061666"> თბილისი, ხანძთელის 36</a> </li>
+                <li class="list-inline-item"><a class="aebi"  href="mailto:info@bearcare.com?subject=The%20subject%20of%20the%20mail">  info@bearcare.com</a> </li>
+                <li class="list-inline-item"><a class="aebi" href="tel:+995 32 222 222">+995 32 222 222</a> </li>
+            </ul>
+            <div class="end">
+                <h1>All rights reserved ©2022 |  Aleksandre Tchanturia</h1> 
+            </div>
+        </footer>
+    </div>
+    
+</section>
+<script src="java.js"></script>
+<!-- <script src="script.js"></script> -->
+</body>
+</html>

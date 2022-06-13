@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'Yuji Boku';
+    src: url('YujiBoku-Regular.eot');
+    src: url('../fonts/YujiBoku-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/YujiBoku-Regular.woff2') format('woff2'),
+        url('../fonts/YujiBoku-Regular.woff') format('woff'),
+        url('../fonts/YujiBoku-Regular.ttf') format('truetype'),
+        url('../fonts/YujiBoku-Regular.svg#YujiBoku-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Overpass Mono';
+    src: url('../fonts/OverpassMono-Regular.eot');
+    src: url('../fonts/OverpassMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OverpassMono-Regular.woff2') format('woff2'),
+        url('../fonts/OverpassMono-Regular.woff') format('woff'),
+        url('../fonts/OverpassMono-Regular.ttf') format('truetype'),
+        url('../fonts/OverpassMono-Regular.svg#OverpassMono-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
